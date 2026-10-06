@@ -1,6 +1,6 @@
 :root{
   --cream:#f4ead6; --cream2:#fbf5e8; --ink:#1b1f2a; --muted:#5d6272;
-  --orange:#f26a1b; --orange2:#ff8a3d; --navy:#1f2a44; --white:#fff;
+  --orange:#f26a1b; --orange2:#ff8a3d; --navy:#19364f; --white:#fff;
   --r:28px; --wrap:1180px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -127,3 +127,11 @@ cite{display:block;margin-top:24px;color:#aab3cb;font-style:normal;font-size:15p
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.float-badge{animation:none}
 }
+.brand span{display:flex;flex-direction:column;line-height:1.15}
+.brand span small{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.footer .brand span small{color:#9fb0c4}
+.brand img{object-fit:contain}
+.brand span{display:block;white-space:nowrap}
+.brand span small{display:block}
+.cap:first-child{top:13vh}
+.cap:first-child h1{font-size:clamp(38px,5.6vw,78px);margin:12px 0}

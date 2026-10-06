@@ -136,7 +136,7 @@
       <rect x="980" y="330" width="580" height="${GROUND - 330}" fill="#fff1dc"/>
       <rect x="960" y="296" width="620" height="44" rx="10" fill="#1f2a44"/>
       <rect x="1080" y="236" width="380" height="66" rx="12" fill="#f26a1b"/>
-      <text x="1270" y="282" text-anchor="middle" font-family="Fraunces,serif" font-weight="700" font-size="32" fill="#fff">ARTI ANADOLU LİSESİ</text>
+      <text x="1270" y="282" text-anchor="middle" font-family="Fraunces,serif" font-weight="700" font-size="32" fill="#fff">BAHÇEŞEHİR ARTI</text>
       ${windowsA}
       <rect x="1199" y="486" width="162" height="${GROUND - 486 + 6}" rx="6" fill="#1f2a44"/>
       <rect x="1215" y="502" width="130" height="${GROUND - 502}" fill="#2a2f45"/>
@@ -167,7 +167,7 @@
   const A = $('#A'), cloud = $('#cloud'), city = $('#city'), doorPanel = $('#doorPanel'), doorGlow = $('#doorGlow');
   const seatWrap = $('#seatWrap'), emptyChair = $('#emptyChair'), hint = $('#hint'), bar = $('#bar');
   const DOOR = { x: 1280, y: 640 };
-  const X0 = 140, XDOOR = 1280, XB0 = 1490, XSEAT = deskXs[3] + 75;
+  const X0 = 190, XDOOR = 1280, XB0 = 1490, XSEAT = deskXs[3] + 75;
 
   let target = 0, cur = 0, ampA = 0, ampB = 0, lastXA = X0, lastXB = XB0, camX = 0;
 
